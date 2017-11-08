@@ -28,7 +28,7 @@ function tweetEvent(eventMsg) {
             randNum = Math.floor((Math.random() * 1000) + 1);
 
             if (replyto === 'Tracking_Bot') {
-                var newtweet = '@' + from + ' Tu paquete tiene este estado: ' + estado1 + " en " + lugar1 + " | Tú numero de la suerte 😀: " + randNum;
+                var newtweet = '@' + from + ' Tu paquete tiene este estado: ' + estado1 + " en " + lugar1 + " | Tu número de la suerte 😀: " + randNum;
                 tweetIt(newtweet);
             }
 
