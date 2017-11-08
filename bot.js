@@ -25,9 +25,10 @@ function tweetEvent(eventMsg) {
             estado1 = JSON.stringify(r[0].registros[0].estado).toLowerCase();
             lugar1 = JSON.stringify(r[0].registros[0].lugar);
             console.log(estado1);
+            randNum = Math.floor((Math.random() * 1000) + 1);
 
             if (replyto === 'Tracking_Bot') {
-                var newtweet = '@' + from + ' Tu paquete tiene este estado: ' + estado1 +" en "+ lugar1;
+                var newtweet = '@' + from + ' Tu paquete tiene este estado: ' + estado1 + " en " + lugar1 + " | Tú numero de la suerte 😀: " + randNum;
                 tweetIt(newtweet);
             }
 
