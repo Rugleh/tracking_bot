@@ -9,6 +9,7 @@
   "license": "ISC",
   "dependencies": {
     "correos-chile": "^1.2.4",
+    "random-emoji": "^1.0.2",
     "twit": "^2.2.9"
   },
   "devDependencies": {},
