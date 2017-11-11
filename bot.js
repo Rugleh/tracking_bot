@@ -30,7 +30,7 @@ function tweetEvent(eventMsg) {
             randEmoji = randomEmoji.random({ count: 2 });
 
             if (replyto === 'Tracking_Bot') {
-                var newtweet = '@' + from + ' Estado de tu paquete: ' + estado1 + " en " + lugar1 + " | Tu número de la suerte 😀: " + randomEmoji[0].character + randomEmoji[1].character;
+                var newtweet = '@' + from + ' Estado de tu paquete: ' + estado1 + " en " + lugar1 + " " + randomEmoji[0].character + randomEmoji[1].character;
                 tweetIt(newtweet);
             }
 
