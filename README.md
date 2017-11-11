@@ -12,7 +12,7 @@ Enviar un tweet mencionando a @Tracking_Bot seguido del código de envío del pa
 
 **Resultado**
 
-@Usuario1 Estado de tu paquete: "recibido en planta origen" en "PLANTA CEP RM" 🍍♣️
+@Usuario1 Estado de tu paquete: "recibido en planta origen" en "PLANTA CEP RM" :camel: :boom:
 
 **Emojis**
 
@@ -27,10 +27,10 @@ Twitter no permite el envío de dos tweets iguales, si se desea consultar el mis
 El tweet es transformado en un arreglo de STRING separando palabras por cada espacio que encuentre, siendo la ubicación 1 del arreglo perteneciente al código de envío y el único que será utilizado por el bot, el resto será ignorado.
 Cualquier caracter luego del STRING de código de envío mitigará la alerta de tweet duplicado. 
 
-`
+```
 Tweet[0] = @Tracking_bot
 Tweet[1] = 990053938289
-`
+```
 
 ## Desarrollo
 
